@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^news/([a-zA-Z0-9_-]+)$ news.php?item=$1
+</IfModule>
